@@ -1,0 +1,16 @@
+/*header {
+    background-image: url(Images/banner_with_cherecter_finished.png);
+    
+}*/
+
+#dw {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 8px;
+    padding: 0px 0px 0px 0px;
+    font-size: 7px;
+    background-color: #ffffff;
+    margin-bottom: 0%;
+}
