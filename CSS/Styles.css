@@ -19,23 +19,7 @@ main {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#banner {
-    width: 87%;
-    margin: 6.46%;
-    border: #000000 5px double;
-}
-
 footer {
     clear: left;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-#Site_Goals {
-    width: 400px;
-    float: left;
-}
-
-#filler {
-width: 400px;
-float: right;
 }
