@@ -1,5 +1,5 @@
 body {
-   background: linear-gradient(#5bcefa 0%, #f5a9b8 25%, #ffffff 50%, #f5a9b8 75%, #5bcefa 100%);
+   background-image: linear-gradient(#5bcefa 0%, #f5a9b8 25%, #ffffff 50%, #f5a9b8 75%, #5bcefa 100%);
 }
 
 #dw {
