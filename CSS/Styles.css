@@ -23,3 +23,7 @@ main {
 footer {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+#imdb {
+    font-style: italic;
+}
