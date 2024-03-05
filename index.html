@@ -6,17 +6,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Maxine MorseCIS 155 Website Project</title>
         <link rel="stylesheet" href="CSS/Styles.css">
+        <link rel="stylesheet" href="CSS/same_code.css">
     </head>
 
     <body>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="history.html">Doctor Who History</a>
-            <a href="Regenerations.html">Regenerations</a>
-            <a href="villains.html">Villains</a>
+        <nav id="nav_menu">
+            <h1>Doctor Who</h1>
+            <ul>
+                <li><a href="index.html" class="current">Home</a></li>
+                <li><a href="history.html">Doctor Who History</a></li>
+                <li><a href="Regenerations.html">Regenerations</a></li>
+                <li><a href="villains.html" class="lastitem">Villains</a></li>
+            </ul>
         </nav>
+        <!--nav menu for site-->
         <header>
-            <h1>Home Page</h1>
             <img id="tardis" src="Images/tardis.jpg" alt="a blue 1920's police phone box traveling through the time vortex">
         </header>
         <main>
@@ -30,9 +34,20 @@
             In 2023 the show writer that was in charge during the first 5 years of New Who reclaimed his 
             throne and rebrand's the show by creating "The Whoniverse". 
             This is the current era and so far contains the fourteenth and fifteenth Doctors.
-        </p>
-
+            </p>
+            <!--The above is a basic description of Doctor Who-->
+            <p><a href="#top">Return To Top</a></p>
         </main>
     </body>
+
+    <footer>
+        <p>Maxine Morse 2024</p>
+        <!--Im adding this to make it clear that I do know how to add the copyright symbol
+        but seeing as I don't actually have the copyrights for any material on this page i don't feel right including it ps. its &copy;-->
+        <p id="dw">The quote that lives in my head rent free<q>People assume that time is a strict progression of cause
+              to effect, but actually,
+              from a nonlinear, non-subjective viewpoint, it's more like a big ball of wibbly-wobbly, timey-wimey...
+              stuff.</q> -The Tenth Doctor</p>
+     </footer>
 
 </html>
