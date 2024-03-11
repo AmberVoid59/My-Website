@@ -8,3 +8,9 @@
 #imdb {
     font-style: italic;
 }
+
+#page_sections {
+    display: flex;
+    flex-wrap: wrap;
+    
+}

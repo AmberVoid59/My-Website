@@ -7,11 +7,14 @@
 
 #nav_menu ul {
    list-style-type: none;
-
+   display: flex;
+   justify-content: space-evenly;
+   padding-right: 40px;
+/*the padding right is correcting for some padding to the left of the menu that I cant find the location
+of, the mysterious padding is exactly 40px and so to make the menu be in the center i added 40px to the right*/
 }
 
 #nav_menu ul li {
-   float: left;
    padding: 0.5%;
    width: 22%;
 }
@@ -32,7 +35,7 @@
 }
 
 #nav_menu ul li a.current {
-   color: rgb(181, 181, 181);
+   color: rgb(225, 15, 15);
 }
 
 /*end of nav menu section*/
@@ -43,30 +46,31 @@ body {
 }
 
 main {
-
    font-family: Arial, Helvetica, sans-serif;
-   clear: left;
 }
 
 footer {
    font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-   clear: left;
-}
+/* header {
+
+} */
 
 .center {
    display: block;
    margin-left: auto;
    margin-right: auto;
+   text-align: center;
    width: 85%;
 }
 
-#title {
-   text-align: center;
-}
+/*#title {
 
+}*/
+
+/* This section is the formatting of a small easter-egg on my website, it is not visible
+and provides no function to the website and it works the way I want it even with the fixed sizing. */
 #dw {
    position: fixed;
    text-align: center;
