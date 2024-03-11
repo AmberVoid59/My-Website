@@ -1,7 +1,8 @@
 #tardis {
-    width: 25%;
-    max-width: 300px;
-
+   clear: left;
+    max-width: 400px;
+    min-width: 200px;
+    padding: 1%;
 }
 
 #imdb {
