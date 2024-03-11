@@ -12,5 +12,6 @@
    "cSpell.ignoreWords": [
       "imdb",
       "lastitem"
-   ]
+   ],
+   "IDX.webDevTools": true
 }
