@@ -82,3 +82,11 @@ and provides no function to the website and it works the way I want it even with
    color: rgba(0, 0, 0, 0.01);
    margin-bottom: 0%;
 }
+
+/* end of section*/
+
+#page_sections {
+   display: flex;
+   flex-wrap: wrap;
+   
+}
