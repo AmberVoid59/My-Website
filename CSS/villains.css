@@ -1,0 +1,65 @@
+section {
+   text-align: center;
+}
+
+main {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-template-rows: repeat(2, 1fr) .2fr repeat(2, 1fr);;
+}
+
+#zygon {
+   align-items: center;
+   width: 70%;
+   grid-row: 1;
+   grid-column: 1;
+}
+
+#davros {
+   align-items: center;
+   width: 78%;
+   grid-row: 1;
+   grid-column: 2;
+}
+
+#dalek {
+   align-items: center;
+   width: 73.5%;
+   grid-row: 1;
+   grid-column: 3;
+}
+
+#toymaker {
+   align-items: center;
+   width: 70%;
+   grid-row: 1 ;
+   grid-column: 4;
+}
+
+#Silence {
+   align-items: center;
+   width: 71%;
+   grid-row: 4;
+   grid-column: 1;
+}
+
+#library {
+   align-items: center;
+   width: 50%;
+   grid-row: 4;
+   grid-column: 2;
+}
+
+#master {
+   align-items: center;
+
+   grid-row: 4;
+   grid-column: 3;
+}
+
+#slitheen {
+   align-items: center;
+   width: 50%;
+   grid-row: 4;
+   grid-column: 4;
+}
