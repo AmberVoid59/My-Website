@@ -9,9 +9,7 @@
    list-style-type: none;
    display: flex;
    justify-content: space-evenly;
-   padding-right: 40px;
-/*the padding right is correcting for some padding to the left of the menu that I cant find the location
-of, the mysterious padding is exactly 40px and so to make the menu be in the center i added 40px to the right*/
+   padding: 0;
 }
 
 #nav_menu ul li {
@@ -53,21 +51,13 @@ footer {
    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* header {
-
-} */
-
-.center {
+header {
    display: block;
    margin-left: auto;
    margin-right: auto;
    text-align: center;
    width: 85%;
 }
-
-/*#title {
-
-}*/
 
 /* This section is the formatting of a small easter-egg on my website, it is not visible
 and provides no function to the website and it works the way I want it even with the fixed sizing. */
@@ -88,5 +78,29 @@ and provides no function to the website and it works the way I want it even with
 #page_sections {
    display: flex;
    flex-wrap: wrap;
-   
+
+}
+
+/*nav menu media query*/
+@media only screen and (max-width: 618px) {
+   #nav_menu {
+      padding-bottom: 5em;
+      width: 85%;
+   }
+
+   #nav_menu ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-evenly;
+      padding: 0;
+      flex-direction: column;
+   }
+
+   #nav_menu ul li {
+      padding: 0.5%;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+   }
+
 }

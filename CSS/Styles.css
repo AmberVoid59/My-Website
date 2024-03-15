@@ -1,11 +1,111 @@
-#tardis {
-   clear: left;
-    max-width: 400px;
-    min-width: 200px;
-    padding: 1%;
-}
-
 #imdb {
     font-style: italic;
 }
 
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: .125fr .5fr .125fr repeat(5, .5fr);
+    justify-items: center;
+    background-color: rgba(0, 0, 0, 0.285);
+    color: white;
+    border: 3px solid blue;
+    border-radius: 2%;
+}
+
+#Synopsis-heading {
+    grid-row: 1;
+    grid-column: 2;
+    text-align: center;
+}
+
+#Synopsis {
+    grid-row: 2;
+    grid-column: 1 / span3;
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#logos-heading {
+    grid-row: 3;
+    grid-column: 2;
+}
+
+#thartnell {
+    width: 70%;
+    grid-row: 4;
+    grid-column: 1;
+}
+
+#ttroughton {
+    width: 70%;
+    grid-row: 4;
+    grid-column: 2;
+}
+
+#tpertwee {
+    width: 70%;
+    grid-row: 4;
+    grid-column: 3;
+}
+
+#tbakert {
+    width: 70%;
+    grid-row: 5;
+    grid-column: 1;
+}
+
+#tdavison {
+    width: 70%;
+    grid-row: 5;
+    grid-column: 2;
+}
+
+#tbakerc {
+    width: 70%;
+    grid-row: 5;
+    grid-column: 3;
+}
+
+#tmccoy {
+    width: 70%;
+    grid-row: 6;
+    grid-column: 1;
+}
+
+#tmcgann {
+    width: 70%;
+    grid-row: 6;
+    grid-column: 2;
+}
+
+#teccleston {
+    width: 79%;
+    grid-row: 6;
+    grid-column: 3;
+}
+
+#tsmith {
+    width: 59%;
+    grid-row: 7;
+    grid-column: 1;
+}
+
+#tcapadi {
+    width: 65%;
+    grid-row: 7;
+    grid-column: 2;
+}
+
+#tjodie {
+    width: 75%;
+    grid-row: 7;
+    grid-column: 3;
+}
+
+#tanaversery {
+    width: 68%;
+    grid-row: 8;
+    grid-column: 2;
+}
